@@ -799,7 +799,7 @@ for img_path, start_row, title, scale in chart_configs:
 # ═══════════════════════════════════════════════════════════════════════════════
 # SAVE
 # ═══════════════════════════════════════════════════════════════════════════════
-out_path = os.path.join(OUTPUT, 'Propuesta_Reasignacion_PM_Blend360.xlsx')
+out_path = os.path.join(OUTPUT, 'Propuesta_Reasignacion_PM_Blend360_new.xlsx')
 wb.save(out_path)
 print(f"\nExcel guardado: {out_path}")
 
