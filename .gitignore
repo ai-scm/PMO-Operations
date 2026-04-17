@@ -1,0 +1,10 @@
+# Archivos temporales de Microsoft Office
+~$*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
