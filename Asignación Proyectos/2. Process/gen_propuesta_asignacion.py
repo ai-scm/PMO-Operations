@@ -66,15 +66,19 @@ PM_USER = {
 USER_PM = {v: k for k, v in PM_USER.items()}
 
 # ── PROPOSED REASSIGNMENTS (project ID → new PM) ──────────────────────────────
-# Miguel Garcia → ADRES Auditoría (takes from Indira Duarte)
+# Miguel Garcia → ADRES Auditoría AI (from Indira Duarte)
+# Miguel Garcia → ADRES Operación Auditoria Cuentas Médicas (from Diana Rojas)
 # Superservicios → Diana Rojas (from Miguel Garcia)
 # SED + MEN → Diana Castro (from Miguel Garcia)
 # Hotel Planner → David Cortes (from Miguel Garcia)
 # JPM → Juan Bernal (from David Cortes)
+# UBO → Diana Castro (from David Cortes)
 REASSIGN = {
     # ADR - AI Auditoría Médica (from Indira → Miguel)
     'P2457': 'Miguel Garcia', 'P2470': 'Miguel Garcia',
     'P2471': 'Miguel Garcia', 'P2472': 'Miguel Garcia',
+    # ADR - Operación Auditoria Cuentas Médicas (from Diana Rojas → Miguel)
+    'P2847': 'Miguel Garcia', 'P2848': 'Miguel Garcia', 'P2849': 'Miguel Garcia',
     # SPD Superservicios (from Miguel → Diana Rojas)
     'P1966': 'Diana Rojas', 'P1967': 'Diana Rojas',
     'P2723': 'Diana Rojas', 'P2724': 'Diana Rojas',
@@ -88,6 +92,8 @@ REASSIGN = {
     'P2671': 'David Cortes', 'P2786': 'David Cortes',
     # JPM (from David Cortes → Juan Bernal)
     'P1947': 'Juan Bernal', 'P1948': 'Juan Bernal',
+    # UBO Ubosque (from David Cortes → Diana Castro)
+    'P1968': 'Diana Castro',
 }
 
 # ── LOAD MAESTRO ──────────────────────────────────────────────────────────────
